@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+
+
+:root {
+    --cor0: #e4c6b5;
+    --cor1: #A64B17;
+    --cor2: #8C3616;
+    --cor3: #591F12;
+    --cor4: #591F12;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'Sassy Frass', cursive;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor4), var(--cor0));
+    text-align: center;
+}
+header > h1 {
+    color: white;
+    font-family: var(--font-destaque);
+    font-size: 4em;
+    font-weight: bolder;
+}
